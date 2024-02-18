@@ -6,8 +6,7 @@
 
 ### Links
 
-- Solution URL: ()
-- Live Site URL: ()
+- Live Site URL: (https://aallam0.github.io/Recipe-page)
 
 ### Author
 
