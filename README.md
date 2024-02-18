@@ -1,12 +1,14 @@
 # Frontend Mentor - Recipe page solution
 
-### Screenshot
-
 ![Recipe-page](assets/images/Recipe-page.png)
 
 ### Links
 
 - Live Site URL: (https://aallam0.github.io/Recipe-page)
+
+### Useful resources
+
+- (https://elzero.org)
 
 ### Author
 
