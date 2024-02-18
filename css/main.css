@@ -1,0 +1,128 @@
+:root {
+  --nutmeg-color: hsl(14, 45%, 36%);
+  --dark-raspberry: hsl(332, 51%, 32%);
+  --rose-white-color: hsl(330, 100%, 98%);
+  --eggshell-color: hsl(30, 54%, 90%);
+  --light-grey-color: hsl(30, 18%, 87%);
+  --wenge-brown-color: hsl(30, 10%, 34%);
+  --dark-charcoal-color: hsl(24, 5%, 18%);
+  --young-serif-family: "Young Serif", serif;
+  --outfit-family: "Outfit", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--outfit-family);
+  margin: 0;
+  background-color: var(--eggshell-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1500px;
+}
+.recipe-page {
+  padding: 25px;
+  background-color: white;
+  border-radius: 10px;
+  width: 500px;
+}
+.recipe-page img {
+  width: 100%;
+  border-radius: 6px;
+}
+.recipe-page h1 {
+  font-weight: 400;
+  font-family: var(--young-serif-family );
+}
+.recipe-page p {
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--wenge-brown-color);
+}
+.recipe-page .prep-time {
+  background-color: var(--rose-white-color);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 6px;
+}
+.recipe-page .prep-time h4 {
+  color: var(--dark-raspberry);
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+.recipe-page ul,
+.recipe-page ol {
+  padding-left: 20px;
+  margin: 0;
+}
+.recipe-page ul li,
+.recipe-page ol li {
+  padding-left: 15px;
+  font-size: 11px;
+  color: var(--wenge-brown-color);
+}
+.recipe-page ul li:not(:last-child),
+.recipe-page ol li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.recipe-page ul li::marker,
+.recipe-page ol li::marker {
+  color: var(--nutmeg-color);
+  font-size: 11px;
+  font-weight: bold;
+}
+.recipe-page .prep-time {
+  padding: 20px;
+}
+.recipe-page .prep-time ul li span {
+  font-weight: bold;
+  color: var(--wenge-brown-color);
+}
+.recipe-page h3 {
+  font-family: var(--young-serif-family);
+  font-weight: 400;
+  color: var(--nutmeg-color);
+  font-size: 23px;
+  margin: 15px 0;
+}
+.recipe-page .ingredients,
+.recipe-page .instructions  {
+  border-bottom: 1px solid var(--light-grey-color);
+  padding-bottom: 25px;
+}
+.recipe-page .instructions span {
+  font-weight: bold;
+}
+.recipe-page .nutrition .nut {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.recipe-page .nutrition .nut:not(:last-child) {
+  border-bottom: 1px solid var(--light-grey-color);
+}
+.recipe-page .nutrition .nut span {
+  width: 200px;
+  font-size: 15px;
+}
+.recipe-page .nutrition .nut span:first-child {
+  color: var(--wenge-brown-color);
+}
+.recipe-page .nutrition .nut span:last-child {
+  font-weight: bold;
+  color: var(--nutmeg-color);
+}
+@media (max-width: 767px) {
+  body {
+    height: fit-content;
+  }
+  .recipe-page {
+    width: 100%;
+  }
+  .recipe-page img {
+    margin-left: -25px;
+    margin-top: -25px;
+    width: calc(100% + 50px);
+  }
+}
