@@ -1,13 +1,15 @@
 # Frontend Mentor - Recipe page solution
 
-### Screenshot
-
 ![Recipe-page](assets/images/Recipe-page.png)
 
 ### Links
 
 - Solution URL: (https://frontendmentor.io/solutions/recipe-page-using-different-types-of-elements-V59pAXAY4q)
 - Live Site URL: (https://aallam0.github.io/Recipe-page)
+
+### Useful resources
+
+- (https://elzero.org)
 
 ### Author
 
