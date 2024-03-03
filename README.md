@@ -6,8 +6,8 @@
 
 ### Links
 
-- Solution URL: ()
-- Live Site URL: ()
+- Solution URL: (https://frontendmentor.io/solutions/recipe-page-using-different-types-of-elements-V59pAXAY4q)
+- Live Site URL: (https://aallam0.github.io/Recipe-page)
 
 ### Author
 
